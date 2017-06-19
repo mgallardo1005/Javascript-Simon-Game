@@ -1,0 +1,185 @@
+body {
+  background-image: url("https://t3.ftcdn.net/jpg/01/29/66/18/240_F_129661884_HkvZNqyVYYzDFEGLBT2crJjvoU8O2ya9.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.block {
+  width: 560px;
+  height: 550px;
+  padding: 2%;
+  background-color: black;
+  margin: auto;
+  border-radius: 50%;
+  font-family: arial;
+  color: white;
+  margin-top: 100px;
+  text-align:center;
+}
+
+.square {
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  z-index: -1;
+}
+
+.circle{
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  background-color: white;
+  margin-left: 130px;
+  margin-top: -120px;
+  position: absolute;
+  border-width: 10px;
+  border-color: black;
+  border-style: solid;
+}
+
+.simon {
+  color: black;
+  margin-top: 35px;
+  font-family: Alfa Slab One;
+  text-align: center;
+}
+
+.restricted {
+  font-size: 15px;
+  position: relative;
+  top: -10px;
+}
+
+.counter {
+  width: 50px;
+  height: 40px;
+  border-color: gray;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 6px;
+  background-color: black;
+  margin: auto 15px auto auto;
+  display:inline-block
+}
+
+#count {
+  margin:auto;
+  font-size: 30px;
+}
+
+.start {
+  padding: 3%;
+  background-color: green;
+  margin-left: 15px;
+  margin-top: -15px;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  box-shadow: 0 2px #999
+}
+
+.start:active {
+  background-color: #green;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.count {
+  margin-right: 80px;
+  margin-top: -3px
+}
+
+.game-info {
+  font-family: arial;
+  font-size: 16px;
+  margin-top: 6px;
+  color: black;
+}
+
+.strict {
+  position: relative;
+  margin-top: 25px;
+}
+
+.strict-light-off {
+  border: 2px solid gray;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.strict-light-on {
+  border: 2px solid gray;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.onOff {
+  background-color: purple;
+  width: 25px;
+  height: 25px;
+  color: white;
+  margin-top: -5px;
+  box-shadow: 0 2px #999
+}
+
+.onOff:active {
+  background-color: #purple;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.red {
+  background-color: #990000;
+  border-radius: 110% 10px 10px 10px;
+}
+
+.Pushed-1 {
+  background-color: #ff1a1a;
+  border-radius: 110% 10px 10px 10px;
+}
+
+.blue {
+  background-color: #000080;
+  border-radius: 10px 110% 10px 10px;  
+}
+
+.Pushed-2 {
+  background-color: #1a1aff;
+  border-radius: 10px 110% 10px 10px;
+}
+
+.green {
+  background-color: #006600;
+  border-radius: 10px 10px 10px 110%;
+}
+
+.Pushed-3 {
+  background-color: #1aff1a;
+  border-radius: 10px 10px 10px 110%;
+}
+
+.yellow {
+  background-color: #999900;
+  border-radius: 10px 10px 110% 10px;
+}
+
+.Pushed-4 {
+  background-color: #ffff00;
+  border-radius: 10px 10px 110% 10px;
+}
+
+.footer {
+  background-color: #ccccb3;
+  margin-top: 50px;
+  border-radius: 5px;
+}

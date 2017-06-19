@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Javascript Simon Game</title>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet'>
+
+<link rel="stylesheet" href="simon.css">
+</head>
+
+<audio id="red"><source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mp3"></source></audio>
+<audio id="blue"><source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mp3"></source></audio>
+<audio id="green"><source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mp3"></source></audio>
+<audio id="yellow"><source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mp3"></source></audio>
+
+<div class="container-fluid">
+
+<body>
+  
+ <nav class= "navbar navbar-inverse navbar-fixed-top">
+   <div class="navbar-header">
+     <a class="navbar-brand">Simon Game</a>
+   </div>
+     <ul class="nav navbar-nav navbar-right">
+       <li><a href="https://github.com/mgallardo1005" target="-blank"><span class="glyphicon glyphicon-user"></span> Michael Gallardo</a></li>
+     </ul>
+ </nav> 
+  
+ <div class = "block">
+   <div class="row">
+     <a class= "btn square red" id="1go" data-index-number="1"></a>
+     <a class= "btn square blue" id="2go" data-index-number="2"></a>
+   </div>
+   <div class="circle">
+      <h1 class="simon">Simon<span class='restricted'>®<span></h1>
+        <div class="row">
+            <div class="counter">
+              <h3 id="count">0</h3>
+            </div>
+              <a class="btn start" id='start'>Start</a>
+          <div class="row game-info">
+            <h4 class="count">Count</h4>
+            <h4 class="strict">Strict Mode</h4>
+            <a class="btn onOff" id="strict"></a>
+            <div class="strict-light-off" id="strictLight"></div>
+            </div>
+        </div>
+    </div>
+
+        
+    <div class="row">
+      <a class= "btn square green" id="3go" data-index-number="3"></a>
+      <a class= "btn square yellow" id="4go" data-index-number="4"></a>
+    </div>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="simon.js"></script>
+
+</body>
+  
+<footer class="text-center footer">Michael Gallardo copyright 2017 All Rights Reserved
+   <div class="text-center">
+    <a href="https://www.facebook.com/michael.gallardo.140" target="_blank"><i class="fa fa-facebook-square" style="font-size:30px; color:rgb(0, 115, 255);"></i></a>
+    <a href="https://www.linkedin.com/in/michael-gallardo-841b3685/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:30px; color:rgb(0, 75, 255)"></i></a>
+    <a href="https://codepen.io/myk1005/" target="_blank"><i class="fa fa-codepen" style="font-size:30px; color:black"></i></a>
+    <a href="https://www.freecodecamp.com/mgallardo1005" target="_blank"><i class="fa fa-free-code-camp" style="font-size:30px; color:darkgreen"></i></a>
+   </div>
+</footer>
+
+</div>
+
+</html>
